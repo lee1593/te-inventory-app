@@ -1,8 +1,8 @@
-const CACHE='te-inventory-static-v1';
-const ASSETS=[
-  '/', '/index.html', '/styles.css', '/app.js', '/db.js',
-  '/components/camera.js','/components/signature.js','/components/meters.js',
-  '/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png'
+const CACHE = 'te-inventory-static-v2'; // bump on each update
+const ASSETS = [
+  'index.html','styles.css','app.js','db.js',
+  'components/camera.js','components/signature.js','components/meters.js',
+  'manifest.webmanifest','icons/icon-192.png','icons/icon-512.png'
 ];
 
 self.addEventListener('install', (e)=>{
