@@ -1,4 +1,4 @@
-const CACHE = 'te-inventory-static-v3'; // was v2
+const CACHE = 'te-inventory-static-v3';
 const ASSETS = [
   'index.html','styles.css','app.js','db.js',
   'components/camera.js','components/signature.js','components/meters.js',
